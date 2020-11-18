@@ -15,9 +15,9 @@ unsigned int transportujFlota(unsigned int towar)
       {
         liczba_zaglowcow = liczba_zaglowcow + 1;
       }
-      unsigned int dostarczone = s1.transportuj();
+      unsigned int dostarczone = s1->transportuj();
       przetransportowane = przetransportowane + dostarczone;
-      virtual delete s1;
+      delete s1;
     }
     
     return 0;
