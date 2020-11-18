@@ -4,6 +4,7 @@
 
 unsigned int transportujFlota(unsigned int towar)
 {
+    Stocznia stocznia{};
     // Twoja implementacja tutaj
     unsigned int przetransportowane = 0;
     unsigned int liczba_zaglowcow = 0;
